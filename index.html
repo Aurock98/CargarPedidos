@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a617b26d8f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Delivery De Compras De Libros</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Delivery de Compras de Libros</h1>
+        <hr>
+        <h2>Datos del pedido:</h2>
+
+        <div class="datos-pedido">
+
+            <form id="#formulario">
+                <label for="nombre-libro">Nombre del libro:</label><br>
+                <input type="text" id="nombre-libro" name="nombre-libro" placeholder="Harry Potter" required><br>
+
+                <label for="nombre-autor">Nombre del autor del libro:</label><br>
+                <input type="text" id="nombre-autor" name="nombre-autor" placeholder="J.K. Rowling" required><br>
+
+                <label for="dir-comprador">Dirección de entrega del pedido:</label><br>
+                <input type="text" id="dir-comprador" name="dir-comprador" placeholder="Alameda 139, Stgo Centro"
+                    required><br>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="btn-container">
+
+        <button name="cargar" id="cargar">CARGAR</button>
+
+        <button name="refrescar" id="refrescar"><i class="fas fa-redo-alt fa">REFRESCAR</i></button>
+
+    </div>
+
+    <div class="numero-pedido">
+        <p>Pedido número: </p>
+    </div>
+
+    <div class="confirmaciones">
+        <ul></ul>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
